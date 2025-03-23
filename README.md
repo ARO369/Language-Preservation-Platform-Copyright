@@ -187,27 +187,10 @@ Tanmay Kamdi: tanmaykamdi@gmail.com (+91 8459251648)
 
 
 ## Screenshots
+![Screenshot 2025-03-23 183305](https://github.com/user-attachments/assets/778df282-cf2f-4e8b-b704-0ca5a973223f)
 
 ![Screenshot 2025-03-15 160448](https://github.com/user-attachments/assets/ac7b237e-e333-4e52-90f2-497574afc2eb)
 <<<<<<< HEAD
-
-![Screenshot 2025-03-15 160709](https://github.com/user-attachments/assets/7b3c38bc-32e4-4f2b-9a30-29a88690711c)
-
-![Screenshot 2025-03-15 160527](https://github.com/user-attachments/assets/65a1eb78-89ad-4d06-b9dc-f546b1b636ad)
-
-![Screenshot 2025-03-15 160547](https://github.com/user-attachments/assets/f1e4a6a7-c0cc-453f-b685-cb18e487e85b)
-
-![Screenshot 2025-03-15 160634](https://github.com/user-attachments/assets/a523afa2-d58e-43bd-ae62-81d5f905e5fd)
-
-
-
-
-
-
-
-
-=======
->>>>>>> 9f52f22 (View Image Fix)
 
 ![Screenshot 2025-03-15 160709](https://github.com/user-attachments/assets/7b3c38bc-32e4-4f2b-9a30-29a88690711c)
 
