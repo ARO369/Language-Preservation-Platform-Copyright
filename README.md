@@ -181,7 +181,7 @@ You have successfully set up and used the **Language Preservation Web App**! ðŸŽ
 If you have any issues please contact:
 Aaradhya Pathak: aaradhyapathakofficial@gmail.com (+91 8799986851)
 Sanchit Thakare: sanchitthakare03092003@gmail.com (+91 9359028897)
-Fareesus Zama: fareesuzzama@gmail.com (+91 7841924380)
+Fareesuz Zama: fareesuzzama@gmail.com (+91 7841924380)
 Tanmay Kamdi: tanmaykamdi@gmail.com (+91 8459251648)
 
 
