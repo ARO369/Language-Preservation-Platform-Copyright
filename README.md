@@ -190,7 +190,6 @@ Tanmay Kamdi: tanmaykamdi@gmail.com (+91 8459251648)
 ![Screenshot 2025-03-23 183305](https://github.com/user-attachments/assets/778df282-cf2f-4e8b-b704-0ca5a973223f)
 
 ![Screenshot 2025-03-15 160448](https://github.com/user-attachments/assets/ac7b237e-e333-4e52-90f2-497574afc2eb)
-<<<<<<< HEAD
 
 ![Screenshot 2025-03-15 160709](https://github.com/user-attachments/assets/7b3c38bc-32e4-4f2b-9a30-29a88690711c)
 
