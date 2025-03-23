@@ -65,7 +65,7 @@ Before proceeding, ensure your system meets the following requirements:
    - Click on **Terminal** > **New Terminal**.
 2. In the terminal, ensure you are inside the project folder. Run the following command to install dependencies:
    ```sh
-   npm install
+   npm install -force
    ```
    - This will install all required **Node.js** dependencies.
    - The process may take a few minutes.
@@ -178,7 +178,11 @@ Once the application is running, follow these steps to use it:
 ## **Conclusion**
 You have successfully set up and used the **Language Preservation Web App**! 🎉
 
-If you experience any issues, ensure all installations were done correctly and try restarting your system. Happy coding!
+If you have any issues please contact:
+Aaradhya Pathak: aaradhyapathakofficial@gmail.com (+91 8799986851)
+Sanchit Thakare: sanchitthakare03092003@gmail.com (+91 9359028897)
+Fareesus Zama: fareesuzzama@gmail.com (+91 7841924380)
+Tanmay Kamdi: tanmaykamdi@gmail.com (+91 8459251648)
 
 
 

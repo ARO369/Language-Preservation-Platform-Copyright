@@ -106,7 +106,9 @@ const App = () => {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col items-center">
             <div className="mb-4">
-              <h3 className="text-xl font-semibold mb-2">Developed By:</h3>
+              <div className="flex justify-center items-center">
+                <h3 className="text-xl font-semibold mb-2">Developed By:</h3>
+              </div>
               <div className="flex flex-wrap justify-center gap-4">
                 <span className="px-3 py-1 bg-gray-800 rounded">
                   Aaradhya Pathak
