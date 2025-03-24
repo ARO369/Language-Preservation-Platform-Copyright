@@ -47,20 +47,20 @@ const FileUploadSection = memo(({ label, file, setFile, accept }) => (
 ));
 
 // Create a memoized form input component
-const FormInput = memo(({ label, value, onChange, type = "text", ...props }) => (
-  <div>
-    <label className="block text-gray-700 font-semibold mb-2">
-      {label}
-    </label>
-    <input
-      type={type}
-      value={value}
-      onChange={onChange}
-      className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-800 focus:border-transparent transition-all duration-300 text-gray-700"
-      {...props}
-    />
-  </div>
-));
+const FormInput = memo(
+  ({ label, value, onChange, type = "text", ...props }) => (
+    <div>
+      <label className="block text-gray-700 font-semibold mb-2">{label}</label>
+      <input
+        type={type}
+        value={value}
+        onChange={onChange}
+        className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-800 focus:border-transparent transition-all duration-300 text-gray-700"
+        {...props}
+      />
+    </div>
+  )
+);
 
 const UploadPage = () => {
   const [name, setName] = useState("");
@@ -77,22 +77,22 @@ const UploadPage = () => {
   const navigate = useNavigate();
 
   // Memoize handlers
-  const handleFileChange = useCallback((setter) => (e) => {
-    setter(e.target.files[0]);
-  }, []);
+  const handleFileChange = useCallback(
+    (setter) => (e) => {
+      setter(e.target.files[0]);
+    },
+    []
+  );
 
-  const handleInputChange = useCallback((setter) => (e) => {
-    setter(e.target.value);
-  }, []);
+  const handleInputChange = useCallback(
+    (setter) => (e) => {
+      setter(e.target.value);
+    },
+    []
+  );
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // if (!videoFile && !audioFile && !textFile && !imageFile) {
-    //   setIsFiles(false);
-    //   console.log("No files selected");
-    //   return;
-    // }
 
     if (!name || !title || !description || !Category) {
       alert(
@@ -165,7 +165,7 @@ const UploadPage = () => {
       const metadataAccount = Keypair.generate();
 
       // Store metadata on Solana
-      console.log("Storing metadata:", metadata);
+      // console.log("Storing metadata:", metadata);
       await storeMetadata(metadata, metadataAccount, payer);
 
       // Success handling
@@ -183,7 +183,7 @@ const UploadPage = () => {
       // Simulate navigation to fetch page
       setTimeout(() => navigate("/home"), 2000);
 
-      console.log("Metadata stored successfully");
+      // console.log("Metadata stored successfully");
     } catch (error) {
       console.error("Error uploading to IPFS or storing metadata:", error);
       setLoading(false);

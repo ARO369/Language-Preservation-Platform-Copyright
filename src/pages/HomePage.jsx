@@ -5,7 +5,10 @@ import fetchJson from "../solana";
 const Modal = lazy(() => import("../components/Modal"));
 
 // Import loading animation with explicit width and height
-const loadingAnimation = new URL("../assets/loading_Animation.gif", import.meta.url).href;
+const loadingAnimation = new URL(
+  "../assets/loading_Animation.gif",
+  import.meta.url
+).href;
 
 // Memoize category colors
 const categoryColors = {
@@ -225,7 +228,9 @@ const HomePage = () => {
                       {item.imageUrl && (
                         <button
                           className="bg-[#e3e3e3] hover:bg-[#d3d2d2] px-6 py-2 rounded-lg text-black font-semibold transition-all duration-300 hover:shadow-md"
-                          onClick={() => handleOpenModal(item.imageUrl, "image")}
+                          onClick={() =>
+                            handleOpenModal(item.imageUrl, "image")
+                          }
                         >
                           View Image
                         </button>

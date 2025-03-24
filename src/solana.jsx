@@ -59,7 +59,7 @@ export async function storeMetadata(metadata, metadataAccount, payer) {
 // Fetch and parse JSON metadata
 export default async function fetchJson(prefetch = false) {
   if (prefetch && prefetchCache.data) {
-    console.log("Using cached data");
+    // console.log("Using cached data");
     return prefetchCache.data;
   }
   let signatures = [];
@@ -108,7 +108,7 @@ export default async function fetchJson(prefetch = false) {
       const aro = JSON.parse(finalData);
 
       // Log metadata for debugging
-      console.log("Fetched Metadata:", aro);
+      // console.log("Fetched Metadata:", aro);
 
       allData.push({
         name: aro.name,
@@ -138,7 +138,6 @@ export default async function fetchJson(prefetch = false) {
     }
   }
 
-  console.log("Prefetched Data: ", allData);
-  // console.log("All Data 1: ", allData[0]);
+  // console.log("Prefetched Data: ", allData);
   return allData;
 }
