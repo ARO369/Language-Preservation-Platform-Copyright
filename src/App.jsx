@@ -29,7 +29,7 @@ const App = () => {
       {/* Hero Section */}
       <div className="flex flex-col items-center justify-center text-center px-4 pt-10 pb-12">
         <h1 className="text-gray-900 text-4xl md:text-4xl font-bold mb-8 font-silkscreen">
-          LANGUAGE PRESERVATION PLATFORM USING BLOCKCHAIN
+          Preserving Languages Through Blockchain Technology
         </h1>
 
         <div className="max-w-3xl mx-auto">
@@ -133,8 +133,8 @@ const App = () => {
             </div>
 
             <p className="mt-6 text-sm text-gray-400">
-              © {new Date().getFullYear()} Language Preservation Platform. All
-              rights reserved.
+              © {new Date().getFullYear()} Preserving Languages Through
+              Blockchain Technology. All rights reserved.
             </p>
           </div>
         </div>

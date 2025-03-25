@@ -1,8 +1,8 @@
-# **Language Preservation Web App - Setup Guide**
+# **Preserving Languages Through Blockchain Technology - Setup Guide**
 
 ## **Introduction**
 
-This document provides a step-by-step guide to setting up and running the Language Preservation Web App on your local machine. The project is built using **React.js, Node.js, and Solana CLI** and is included in a **ZIP file** with all necessary dependencies.
+This document provides a step-by-step guide to setting up and running the Preserving Languages Through Blockchain Technology on your local machine. The project is built using **React.js, Node.js, and Solana CLI** and is included in a **ZIP file** with all necessary dependencies.
 
 ## **System Requirements**
 
@@ -115,20 +115,25 @@ For blockchain-related functionalities, you need **Solana CLI**.
 ---
 
 ## **Step 8: Using the Web App**
+
 Once the application is running, follow these steps to use it:
 
 ### **1. Home Screen (Project Information & Team Details)**
+
 - When you open the web app, you will see information about the project and the development team.
 - To proceed to the next section, click on the **NEXT** button.
 
 ### **2. Fetch Data Screen (Viewing Contributions)**
+
 - This screen displays all contributions from different authors, categorized by language.
 - You will see a **search bar** at the top to search for specific contributions.
 
 #### **Searching Contributions**
+
 - Type any **language name, author name, or description** in the search bar to filter results dynamically.
 
 #### **Filtering Contributions by Category**
+
 - Below the search bar, you will find filter options:
   - **Safe**: Displays languages that are not endangered.
   - **Vulnerable**: Displays languages that are at risk but still spoken.
@@ -137,6 +142,7 @@ Once the application is running, follow these steps to use it:
 - Clicking on any category will display only the relevant languages.
 
 ### **3. Viewing Contribution Details**
+
 - The main feed contains **cards** displaying:
   - **Title**
   - **Description**
@@ -146,11 +152,13 @@ Once the application is running, follow these steps to use it:
 - Clicking on a card will open a **popup window** displaying the contribution's media.
 
 ### **4. Navigating Between Screens**
+
 - At the top of the **fetch data screen**, you will see two buttons:
   - **Back Button**: Takes you to the Home Page.
   - **Upload Button**: Takes you to the Upload Screen.
 
 ### **5. Uploading a New Contribution**
+
 - Clicking the **Upload** button will take you to the **Upload Screen**.
 - Here, you will see a **form** with the following fields:
   - **Title**
@@ -163,12 +171,14 @@ Once the application is running, follow these steps to use it:
 - Click the **Upload** button to submit the data to the blockchain.
 
 ### **6. Viewing Uploaded Contribution**
+
 - After successfully uploading, you will be redirected back to the **Fetch Data Screen**.
 - The newly uploaded contribution will now be visible in the list.
 
 ---
 
 ## **Step 9: Verifying Everything Works**
+
 - Ensure there are no errors in the terminal.
 - Open the browser and check if the app is functioning as expected.
 - If any issues occur, restart **VS Code** and re-run the commands.
@@ -176,7 +186,8 @@ Once the application is running, follow these steps to use it:
 ---
 
 ## **Conclusion**
-You have successfully set up and used the **Language Preservation Web App**! 🎉
+
+You have successfully set up and used the **Preserving Languages Through Blockchain Technology**! 🎉
 
 If you have any issues please contact:
 Aaradhya Pathak: aaradhyapathakofficial@gmail.com (+91 8799986851)
@@ -184,9 +195,8 @@ Sanchit Thakare: sanchitthakare03092003@gmail.com (+91 9359028897)
 Fareesuz Zama: fareesuzzama@gmail.com (+91 7841924380)
 Tanmay Kamdi: tanmaykamdi@gmail.com (+91 8459251648)
 
-
-
 ## Screenshots
+
 ![Screenshot 2025-03-23 183305](https://github.com/user-attachments/assets/778df282-cf2f-4e8b-b704-0ca5a973223f)
 
 ![Screenshot 2025-03-15 160448](https://github.com/user-attachments/assets/ac7b237e-e333-4e52-90f2-497574afc2eb)
